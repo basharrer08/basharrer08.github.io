@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Cattle Drive Model</title>
+
+  <style>
+      #header{
+        background-color: lightgray;
+        height: 24%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      #titleName{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+      }
+      #vers{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+      }
+    </style>
+</head>
+
+<center><span id="header">
+  <h1 id="titleName">Sample Model</h1>
+  <h6 id="vers">Version 0.0 11/4/2022</h6>
+  <button id="FullButton" onclick="FullView()">Full View</button>
+  <button id="KeyButton" onclick="KeyView()">Key View</button>
+  <button id="TableButton" onclick="TableView()">Table View</button>
+
+<h1></h1>
+
+<img id="myImage" src="https://i.postimg.cc/90RSj6Qm/Table-De-Zign.png" alt="Not Found" style="width:900px">
+</span>
+</center>
+
+<script>
+    
+function FullView()
+    {
+      var image1 = document.getElementById("myImage");
+      image1.src = "https://i.postimg.cc/90RSj6Qm/Table-De-Zign.png";
+    }
+
+function KeyView()
+    {
+      var image2 = document.getElementById("myImage");
+      image2.src = "https://i.postimg.cc/P5sGd5DB/sample-keys.png";
+    }
+
+function TableView()
+    {
+      var image3 = document.getElementById("myImage");
+      image3.src = "https://i.postimg.cc/rmYb3VcZ/sample-table.png";
+    }
+</script>
+
+</html>
